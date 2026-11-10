@@ -3,7 +3,15 @@ name = "rs-arrow-octets2pgcopy"
 version = "0.1.0"
 edition = "2024"
 
+description = "Writes the single-byte items in the array as pgcopy bytes"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-arrow-octets2pgcopy"
+homepage = "https://github.com/takanoriyanagitani/rs-arrow-octets2pgcopy"
+documentation = "https://docs.rs/rs-arrow-octets2pgcopy/latest"
+keywords = ["arrow", "postgresql", "pgcopy", "binary", "convert"]
+
 exclude = [
+  "arrow-array-log2pgcopy.wasm",
 ]
 
 [lints.rust]
